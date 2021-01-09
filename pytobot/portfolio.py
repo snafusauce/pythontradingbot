@@ -35,7 +35,7 @@ class Portfolio():
                     asset_type=position['asset_type'],
                     purchase_date= position.get('purchase_date', None),
                     purchase_price= position.get('purchase_price', 0.0),
-                    quanity = position.get('quanity', 0)
+                    quanity = position.get('quantity', 0)
                 )
 
                 return self.positions
@@ -77,4 +77,4 @@ class Portfolio():
         pass
 
     def total_market_value(self):
-        def pass
+        pass
